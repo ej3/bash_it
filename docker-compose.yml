@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  bash_it:
+    image: bash_it:latest
+    volumes:
+      - ./test.dev.conf:/etc/test.conf:ro
